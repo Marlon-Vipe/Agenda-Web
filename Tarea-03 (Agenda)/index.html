@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Agenda Web </title>
+    <script src="./js/index.js"></script>
+    <link href="css/index.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body onload="loadContact()">
+<div class="todo">
+    <div class="contenedor-principal">
+        <div class="agregar-contacto">
+            <div class="fila">
+                <div class="columna">Nombre</div>
+                <div class="columna">
+                    <input type="text" id="txtNombre" />
+                </div>
+            </div>
+            <div class="fila">
+                <div class="columna">Apellido</div>
+                <div class="columna">
+                    <input type="text" id="txtApellido" />
+                </div>
+            </div>
+            <div class="fila">
+                <div class="columna">Telefono</div>
+                <div class="columna">
+                    <input type="text" id="txtTelefono" />
+                </div>
+            </div>
+            <div class="fila"><button class="boton-agregar" onclick="agregarContacto()">Agregar</button></div>
+        </div>
+        <div class="encabezado">Contactos</div>
+        <div id="Contacts" class="listado-contactos"></div>
+    </div>
+    
+</div>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" 
+             integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" 
+             crossorigin="anonymous"></script> 
+</body>
+</html>

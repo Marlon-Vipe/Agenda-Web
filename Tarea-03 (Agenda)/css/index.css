@@ -1,0 +1,30 @@
+.contenedor-principal {
+    background-color: darkkhaki;
+}
+
+
+.encabezado{
+    
+    font-size: 30px;
+    padding: 20px;
+}
+.agregar-contacto{
+    display: flex;
+    
+}
+
+.fila{
+    flex-direction: row;
+    
+}
+
+.columna{
+    flex-direction: column;
+}
+
+.todo {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 30px;
+    border-color: brown;
+}
